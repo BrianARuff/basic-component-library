@@ -1,0 +1,9 @@
+:root {
+  --black-700: 333333;
+}
+
+.accordion-content-message {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: var(--black-700); /* char */
+}
