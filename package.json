@@ -1,0 +1,35 @@
+{
+  "name": "basic-component-library",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "type": "module",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-url": "^8.0.2",
+    "@types/react": "^18.3.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.24.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1",
+    "react-dom": ">=18.3.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
